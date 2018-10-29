@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Mabry';
+  src: url('../fonts/mabry-regular-pro.woff2') format('woff2'),
+       url('../fonts/mabry-regular-pro.woff') format('woff'),
+       url('../fonts/mabry-regular-pro.ttf')  format('truetype'),
+}
+
 html {
   box-sizing: border-box;
 }
@@ -10,7 +17,7 @@ body {
   margin: 0;
   padding: 64px;
   background-color: #000;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Mabry', sans-serif;
 }
 
 h1 {
