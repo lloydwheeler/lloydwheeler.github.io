@@ -51,3 +51,25 @@ a:hover {
 .portfolio-image + .portfolio-image {
   margin-top: 64px;
 }
+
+@media screen and (max-width: 720px) {
+  body {
+    padding: 24px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+  }
+
+  .portfolio-image + .portfolio-image {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 27px;
+  }
+}
